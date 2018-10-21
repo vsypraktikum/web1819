@@ -10,12 +10,44 @@
         <h1>Details Projekt X</h1>
     </div>
 
-    <div id="liste">
-        <ul>
-            <li>Mitarbeiter 1</li>
-            <li>Mitarbeiter 2</li>
-        </ul>
-    </div>
+    <form>
+        <div id="details_md_links">
+            <label for="Nummer">
+                Nummer: <input id="nummer" name="nummer"/>
+            </label>
+            <label for="id_k">
+                Kunden-ID: <input id="id_k" name="id_k" />
+            </label>
+            <label for="bezeichung">
+                Bezeichung: <input id="bezeichung" name="bezeichung"/>
+            </label>
+            <label for="beschreibung">
+                Beschreibung: <input id="beschreibung" name="beschreibung" />
+            </label>
+        </div>
+
+        <div id="details_md_rechts">
+            <label for="id">
+                ID: <input id="id" name="id"/>
+            </label>
+            <label for="funktion">
+                Zuname: <input id="funktion" name="funktion" />
+            </label>
+            <label for="zeitraum">
+                Bearbeitungszeitraum: <input id="zeitraum" name="zeitraum" />
+            </label>
+            <label for="budget">
+                Budget: <input id="budget" name="budget" />
+            </label>
+        </div>
+
+        <div id="v_md">
+            <h2>Auflistung aller Aufwendungen</h2>
+            <ul>
+                <li>Aufwendung, Mitarbeiter X</li>
+            </ul>
+        </div>
+    </form>
 
     <div id="footer">
         <input type="submit" value="Speichern" />
