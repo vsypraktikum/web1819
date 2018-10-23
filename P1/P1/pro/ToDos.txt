@@ -1,0 +1,16 @@
+Allgemein
+--------
+Was heißt p und was px?
+
+Datenstruktur für Verweise auf Kunden und Mitarbeiter in projektdaten, sowie speicherung der Zeitdaten
+
+
+-------------
+In App
+	database
+		Funktion readData_p überprüfen (Anzahl der Einträge beachten)
+		Funktion saveData_p überprüfen
+
+------------
+In Template
+	Formularteile als Tabelle erstellen und CSS hinzufügen
