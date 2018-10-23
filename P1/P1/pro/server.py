@@ -13,7 +13,7 @@ def main():
     except:
         current_dir = os.path.dirname(os.path.abspath(sys.executable))
 
-        # disable autoreload and timeout_monitor
+    # disable autoreload and timeout_monitor
     cherrypy.engine.autoreload.unsubscribe()
     cherrypy.engine.timeout_monitor.unsubscribe()
     # Static content config
