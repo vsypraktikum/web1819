@@ -1,0 +1,56 @@
+{
+   "projekt": {
+      "count": 2,
+      "list": {
+         "1": {
+            "mitarbeiter-id": "h",
+            "zeitraum": "h",
+            "nummer": "h",
+            "bezeichnung": "h",
+            "kunden-id": "h",
+            "stunden": "h",
+            "beschreibung": "h",
+            "budget": "h"
+         },
+         "0": {
+            "mitarbeiter-id": "m",
+            "zeitraum": "m",
+            "nummer": "m",
+            "bezeichnung": "m",
+            "kunden-id": "m",
+            "stunden": "m",
+            "beschreibung": "m",
+            "budget": "m"
+         }
+      }
+   },
+   "mitarbeiter": {
+      "count": 2,
+      "list": {
+         "0": {
+            "name": "n",
+            "vorname": "x",
+            "funktion": "n"
+         }
+      }
+   },
+   "kunde": {
+      "count": 3,
+      "list": {
+         "1": {
+            "nummer": "m",
+            "bezeichnung": "m",
+            "id": "m",
+            "ap": "m",
+            "ort": "m"
+         },
+         "0": {
+            "nummer": "n",
+            "bezeichnung": "n",
+            "id": "n",
+            "ap": "n",
+            "ort": "x"
+         }
+      }
+   }
+}

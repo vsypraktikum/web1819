@@ -53,9 +53,9 @@ class Database_cl(object):
         
         return
 
-    def create_projekt
+    #def create_projekt
 
-        return
+      #  return
 
     def delete_mitarbeiter(self, id_spl):
         del self.data_o['mitarbeiter']['list'][id_spl]
